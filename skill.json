@@ -1,0 +1,41 @@
+{
+  "name": "genpark-event-invitation-greeting-card-vector-typesetter-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Event invitation and greeting card vector typesetter generating foil-stamp die-cut masks and responsive RSVP portals.",
+  "author": "genpark",
+  "category": "event-design",
+  "tags": [
+    "invitation-maker",
+    "card-maker",
+    "greeting-card",
+    "die-cut-foil",
+    "rsvp-portal"
+  ],
+  "inputs": {
+    "occasion_name": {
+      "type": "string"
+    },
+    "card_finish_option": {
+      "type": "string"
+    },
+    "rsvp_mode": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "invitation_id": {
+      "type": "string"
+    },
+    "finish_die_cut_mask_included": {
+      "type": "boolean"
+    },
+    "vector_die_cut_pdf_url": {
+      "type": "string"
+    },
+    "responsive_web_rsvp_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
